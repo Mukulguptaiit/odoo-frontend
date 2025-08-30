@@ -33,6 +33,7 @@ import workshopImage from "@/assets/workshop-event.jpg";
 import sportsImage from "@/assets/sports-event.jpg";
 
 const Home = () => {
+  console.log("Home component rendering");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("");

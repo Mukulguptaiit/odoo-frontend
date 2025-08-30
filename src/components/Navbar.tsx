@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 
 const Navbar = () => {
+  console.log("Navbar rendering");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [userRole, setUserRole] = useState<"attendee" | "organizer">("attendee");
   const location = useLocation();
